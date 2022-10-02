@@ -16,6 +16,10 @@ star = time.time()
 ## Do not use with images that have transparent backgrounds 
 ## because it distorts the image.
 
+## Todo:
+## Create a folder with name images
+## and put your image to converted here
+
 
 # Find jpg files in folder
 for root, dirs, files in os.walk(folder):
