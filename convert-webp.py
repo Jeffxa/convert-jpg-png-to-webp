@@ -39,8 +39,10 @@ for root, dirs, files in os.walk(folder):
             width, heigth = im.size
             
             ## Resize you image
-            ## Use of 1 - 6 for resize
-            ## For use uncomment next line 
+            ## Use of 1 - 9 for resize
+            ## For use uncomment next line replace 1
+            ## For you number
+            #im = im.resize((width//1, heigth//1))
 
             ## Change quality image -> quality = (1/100)
             ## Reduce quality uncomment next line
