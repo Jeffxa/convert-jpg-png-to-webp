@@ -1,6 +1,3 @@
-# convert-jpg-png-to-webp
-Convert jpg and png to webp
-
 # Convert jpg, png to webp
 
 Easy conver your images jpg and png to webp.
