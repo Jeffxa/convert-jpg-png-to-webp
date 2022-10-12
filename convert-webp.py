@@ -21,7 +21,7 @@ star = time.time()
 ## and put your image to converted here
 
 
-# Find jpg files in folder
+# Find png files in folder
 for root, dirs, files in os.walk(folder):
     for file in files:
         # Fin file with you extention 
@@ -48,7 +48,7 @@ for root, dirs, files in os.walk(folder):
             ## Change quality image -> quality = (1/100)
             ## Reduce quality uncomment next line
 
-            # im.save(newFile, quality =  60)
+            # im.save(newFile, optimize = True, quality =  60)
 
             print(im.size)
             print(newFile)  
